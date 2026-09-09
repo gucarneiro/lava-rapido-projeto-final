@@ -157,6 +157,14 @@ public class LavaRapidoForm {
                 } catch (IOException ex) {
                     throw new RuntimeException(ex);
                 }
+
+                // abre a segunda janela
+                JFrame frameRelatorio = new JFrame("Relatório Gerado");
+                frameRelatorio.setContentPane(new RelatorioGerado().base);
+                // IMPORTANTE: DISPOSE_ON_CLOSE fecha apenas esta janela
+                frameRelatorio.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                frameRelatorio.pack();
+                frameRelatorio.setVisible(true);
             }
         });
     }
