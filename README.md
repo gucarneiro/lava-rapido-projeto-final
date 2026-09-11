@@ -109,21 +109,20 @@ Fluxo típico de atendimento na aplicação:
 4. O valor é calculado e exibido automaticamente: R$ 80.0
 5. Clicar em "Cadastrar" para registrar o atendimento
 6. Ao final do dia, clicar em "Gerar Relatório"
-
-<img width="387" height="450" alt="image" src="https://github.com/user-attachments/assets/a549b315-ad83-4e62-b3a5-6a02ab5eae6a" />
-
 ```
+<img width="387" height="450" alt="image" src="https://github.com/user-attachments/assets/d4eca018-9425-4443-8f28-117c71086d45" />
+
 
 Trecho do relatório gerado (`relatorio.txt`):
 
 ```
 Todos os clientes atendidos: 
 
-Nome: Maria Silva
+Nome: Fulano Silva
 Modelo: Onix
 Cor: Branco
 Placa: ABC1234
-Servico realizado: Lavagem Completa
+Servico realizado: Lavagem Premium
 Valor: R$ 80.0
 
 ------------------------------------ 
